@@ -4,7 +4,7 @@
   bottom: -30%;
   width: 300px;
   height: 540px;
-  background-color: #333;
+  background-color: #ebca83;
   border-radius: 21px;
   transform: rotate(30deg);
 }
@@ -25,5 +25,5 @@
   right: auto;
   bottom: 0;
   left: 5%;
-  background-color: #e5e5e5;
+  background-color: #abd4cd;
 }

@@ -94,18 +94,13 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
-		.menuoption {
-			margin-right: 50px;
-		}
-    .navbar-default .navbar-nav>.open>a.dropdown-toggle{
-  background-color: #f4511e !important;
-}
     </style>
 
     
     <!-- Custom styles for this template -->
     <link href="product.css" rel="stylesheet">
     <link href="headers.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -226,16 +221,16 @@
     </header>
 	
     <header class="d-flex flex-wrap align-items-center justify-content-center">	
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <!--div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
             <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-          </a>
+          </a-->
 
 		<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li class="menuoption">
 				<div class="dropdown text-end">
 				  <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-					<svg width="24" height="24"><use xlink:href="#clipboard-heart"/></svg> Programa de Salud Bucodental
+					<svg width="24" height="24"><use xlink:href="#clipboard-heart"/></svg> <span class="sescam-green">Programa de Salud Bucodental</span>
 				  </a>
 				  <ul class="dropdown-menu text-small">
 					<li><a class="dropdown-item" href="#">Descripción del programa</a></li>
@@ -250,7 +245,7 @@
             <li class="menuoption">
 				<div class="dropdown text-end">
 				  <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-					<svg width="24" height="24"><use xlink:href="#backpack4"/></svg> Educación para la salud
+					<svg width="24" height="24" class="sescam-orange"><use xlink:href="#backpack4"/></svg> <span class="sescam-green">Educación para la salud</span>
 				  </a>
 				  <ul class="dropdown-menu text-small">
             <li><a class="dropdown-item" href="#">Qué es</a></li>
@@ -264,7 +259,7 @@
             <li class="menuoption">
 				<div class="dropdown text-end">
 				  <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-					<svg width="24" height="24"><use xlink:href="#people"/></svg> Ciudadanos
+					<svg width="24" height="24"><use xlink:href="#people"/></svg> <span class="sescam-green">Ciudadanos</span>
 				  </a>
 				  <ul class="dropdown-menu text-small">
             <li><a class="dropdown-item" href="#">Bebés</a></li>
@@ -273,13 +268,14 @@
             <li><a class="dropdown-item" href="#">Pacientes oncológicos</a></li>
             <li><a class="dropdown-item" href="#">Tercera edad</a></li>
             <li><a class="dropdown-item" href="#">Pacientes con necesidades especiales</a></li>
+            <li><a class="dropdown-item" href="#">Preguntas frecuentes</a></li>
 				  </ul>
 				</div>
             </li>
             <li class="menuoption">
 				<div class="dropdown text-end">
 				  <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-					<svg width="24" height="24"><use xlink:href="#grid"/></svg> Profesionales
+					<svg width="24" height="24"><use xlink:href="#grid"/></svg> <span class="sescam-green">Profesionales</span>
 				  </a>
 				  <ul class="dropdown-menu text-small">
             <li><a class="dropdown-item" href="#">Protocolos</a></li>
@@ -289,10 +285,10 @@
 				  </ul>
 				</div>
             </li>
-            <li>
+            <li class="menuoption-b">
 				<div class="dropdown text-end">
 				  <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-					<svg width="24" height="24"><use xlink:href="#newspaper"/></svg> Prensa
+					<svg width="24" height="24"><use xlink:href="#newspaper"/></svg> <span class="sescam-green">Prensa</span>
 				  </a>
 				  <ul class="dropdown-menu text-small">
             <li><a class="dropdown-item" href="#">Notas</a></li>
@@ -325,6 +321,45 @@
     <div class="product-device shadow-sm d-none d-md-block"></div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
   </div>
+
+
+  <div class="row justify-content-md-center separator">
+    <div class="col-lg-6">
+      <svg width="80" height="80"><use xlink:href="#clipboard-heart"/></svg>
+      <h2 class="fw-normal">Programa de salud bucodental</h2>
+      <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+      <p><a class="btn btn-success" href="#">Más información &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-6">
+      <svg width="80" height="80"><use xlink:href="#backpack4"/></svg>
+      <h2 class="fw-normal">Educación para la salud</h2>
+      <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+      <p><a class="btn btn-success" href="#">Más información &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
+
+
+  <div class="row separator">
+    <div class="col-lg-4">
+      <!--svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg-->
+      <svg width="80" height="80"><use xlink:href="#people"/></svg>
+      <h2 class="fw-normal">Ciudadanía</h2>
+      <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+      <p><a class="btn btn-success" href="#">Más información &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <svg width="80" height="80"><use xlink:href="#grid"/></svg>
+      <h2 class="fw-normal">Profesionales</h2>
+      <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+      <p><a class="btn btn-success" href="#">Más información &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <svg width="80" height="80"><use xlink:href="#newspaper"/></svg>
+      <h2 class="fw-normal">Prensa</h2>
+      <p>And lastly this, the third column of representative placeholder content.</p>
+      <p><a class="btn btn-success" href="#">Más información &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
 
 </main>
 <script src="assets/dist/js/bootstrap.bundle.min.js"></script>

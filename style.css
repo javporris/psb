@@ -1,0 +1,39 @@
+.menuoption {
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+.menuoption-b {
+  font-weight: 600;
+}
+
+.sescam-green {
+  color: #2b9a84 !important;
+}
+
+.sescam-orange {
+  color: #e3ae3b !important;
+}
+
+path {
+  fill: #e3ae3b;
+}
+
+.banner-right-color {
+  fill:blue;
+  color:green;
+}
+
+.row {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+
+.row-b {
+  text-align: center;
+}
+
+.separator{
+  margin-top: 150px;
+}
