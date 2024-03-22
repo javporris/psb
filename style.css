@@ -116,7 +116,7 @@
 #mapa {
   width: 300px;
   position: absolute;
-  top: 25%;
+  top: 5%;
   right: 20%;
 }
 
@@ -134,4 +134,9 @@
 
 h2 {
   color: #002850 !important;
+}
+
+.buzon {
+  width: fit-content;
+  margin-left: 25px;
 }
