@@ -112,3 +112,14 @@
   --bs-btn-active-bg: #f341d5;
   --bs-btn-active-border-color: #f341d5;
 }
+
+#mapa {
+  width: 300px;
+  position: absolute;
+  top: 25%;
+  right: 20%
+}
+
+.fondo-slider {
+  fill: red !important;
+}
