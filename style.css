@@ -120,6 +120,14 @@
   right: 20%;
 }
 
+#cuento {
+  width: 500px;
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  border-radius:10%;
+}
+
 #mascotas {
   width: 300px;
   position: absolute;
